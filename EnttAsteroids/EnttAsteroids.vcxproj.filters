@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="systems">
+      <UniqueIdentifier>{8dc5ec55-5073-45df-92bb-10dced49bf44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components">
+      <UniqueIdentifier>{c698b5af-c3ab-4515-86d2-704a295c88e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="events">
+      <UniqueIdentifier>{6f01885a-51c7-436a-9360-c82b296e2520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{3f6e981b-38a9-49ed-a44d-b6cd94e0a300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{ad62ee6d-80a3-4ba4-8338-f08096af6fc4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EnttAsteroids.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\Lifetime.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\Transform.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\Sprite.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\Velocity.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\LifetimeSystem.cpp">
+      <Filter>systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\MoveSystem.cpp">
+      <Filter>systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\PlayerSystem.cpp">
+      <Filter>systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\RenderSystem.cpp">
+      <Filter>systems</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Factories.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Game.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="util\Math.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\SpriteAnimationSystem.cpp">
+      <Filter>systems</Filter>
+    </ClCompile>
+    <ClCompile Include="components\SpriteAnim.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="components\Lifetime.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\Transform.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\Sprite.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\Velocity.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="events\KeyDown.h">
+      <Filter>events</Filter>
+    </ClInclude>
+    <ClInclude Include="events\KeyUp.h">
+      <Filter>events</Filter>
+    </ClInclude>
+    <ClInclude Include="events\PlayerCreated.h">
+      <Filter>events</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\LifetimeSystem.h">
+      <Filter>systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\MoveSystem.h">
+      <Filter>systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\PlayerSystem.h">
+      <Filter>systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\RenderSystem.h">
+      <Filter>systems</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Factories.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Game.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="util\Log.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\Random.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\Math.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\SpriteAnimationSystem.h">
+      <Filter>systems</Filter>
+    </ClInclude>
+    <ClInclude Include="components\SpriteAnim.h">
+      <Filter>components</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
